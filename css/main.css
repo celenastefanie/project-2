@@ -32,7 +32,7 @@ h1 {
   font-weight: bold;
   font-size: 4em;
   position: absolute;
-  bottom: 10px;
+  bottom: 50px;
   left: 0px;
   display: block;
   padding: 0em;
@@ -47,8 +47,8 @@ h2 {
   text-shadow: 2px 2px black;
   font-family: 'Noto Sans', sans-serif;
   font-weight: bold;
-  font-size: 13px;
-  bottom: 0em;
+  font-size: 15px;
+  bottom: 2em;
   left: 0px;
   position: absolute;
   margin: 0;
@@ -113,12 +113,11 @@ li {
 .banner {
   width: 100%;
   margin: 0;
-  position: relative;
 }
 
 .shen {
   position: absolute;
-  top: 13em;
+  bottom: 1em;
   color: white;
   text-align: center;
   width: 100%;
@@ -128,6 +127,9 @@ li {
   text-shadow: 2px 2px black;
 }
 
+.bannerwrap {
+  position: relative;
+}
 p {
   font-family: 'Noto Sans', sans-serif;
   font-size: 12px;
@@ -136,7 +138,7 @@ p {
 
 
 .medallion {
-  width: 70px;
+  width: 130px;
 }
 
 figure {
